@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+    width: 100%;
+    height: 611px;
+    display: grid;
+    justify-content: center;
+    
+    
+}
+
+.head {
+    display: flex;
+    width: 200px;
+    height: 20px;
+    
+    justify-content: center;
+    margin-top: 20px;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+
+
+}
+
+.head:hover{
+    transition: 0.2s;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+

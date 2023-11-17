@@ -1,0 +1,66 @@
+ /**
+   *
+   * Example :
+   * const parking = new Parking("Sebzor", capacity, pricing)
+   * const car1 = new BYD("BYD Sons")
+   * parking.enterCar(car1) // { minutes: 5 }
+   * parking.logout(car1) // { totalPrice: 50 }
+   *
+   *
+   * const capacity: Capacity = {
+   *  electroCar: 4,
+   *  petrolCar: 12,
+   *  HybridCar: 3,
+   * }
+   *
+   * pricing = {
+   *  electroCarPricePerMinute: 10,
+   *  petrolCarPricePerMinute: 4,
+   *  HybridCarPricePerMinute: 20,
+   * }
+   *
+   */
+
+   // class Car {
+//     constructor(public name:string){};
+// }
+// class ElectroCar extends Car {}
+// class PetrolCar extends Car {}
+// class HybridCar extends Car {}
+
+
+
+// interface Capacity {
+// 	electroCar: number;
+// 	petrolCar: number;
+// 	HybridCar: number;
+// }
+
+// interface Pricing {
+// 	electroCarPricePerMinute: number;
+// 	petrolCarPricePerMinute: number;
+// 	HybridCarPricePerMinute: number;
+// }
+
+// const capacity: Capacity = {
+//     electroCar: 3,
+//     petrolCar: 4,
+//     HybridCar: 5,
+//   };
+  
+//   const pricing: Pricing = {
+//     electroCarPricePerMinute: 5,
+//     petrolCarPricePerMinute: 10,
+//     HybridCarPricePerMinute: 15,
+//   };
+
+//   class Parking<T extends Car> {
+//     public cars: T[];
+//     public name: string;
+//     public capacity: Capacity;
+//     public pricing: Pricing;
+//     constructor(name: string, capacity: Capacity, pricing: Pricing) {}
+// }
+// // props:   (public)name, (public)capacity, (public)pricing
+// // methods:  Methods enterCar(car: T), logoutCar(), calculateTotalPricePerCar(carID: string), calculateTotalProfit
+
